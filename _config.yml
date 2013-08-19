@@ -21,7 +21,8 @@ author :
   github : 
   twitter : 
 
-baseurl: /salon  
+baseurl: /salon 
+product_url: http://yanping.me/salon
   
 links:
     - url: "http://yanping.me/"
