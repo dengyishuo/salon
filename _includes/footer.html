@@ -57,3 +57,7 @@
     <!--.container-->
   </footer>
   <!--footer-->
+ <!--start custom JS-->	
+{% for js in page.js %}<script src="{{site.baseurl}}/assets/js/" type="text/javascript" charset="utf-8"></script>
+{% endfor %}
+<!--end custom JS-->

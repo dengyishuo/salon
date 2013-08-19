@@ -1,6 +1,21 @@
 ---
 layout: default
+slider: true
 ---
+
+<section class="slider">
+<div class="flexslider">
+  <ul class="slides">
+    <li>
+      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/slider/images/p1.jpg" /><p class="flex-caption">Caption 1</p></a>
+    </li>
+    <li>
+      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/slider/images/p2.jpg" /><p class="flex-caption">Caption 2</p></a>
+    </li>
+  </ul>
+</div>
+</section>
+
 
 {% for post in paginator.posts  %}          
             <div class="post excerpt ">

@@ -14,6 +14,9 @@
 	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
 	<!--start fonts-->
+{% if page.slider %}
+<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/slider/flexslider.css" />
+{% endif %}
 <link href="{{ site.baseurl}}/assets/css/css.css" rel="stylesheet" type="text/css">
 <!--end fonts-->
 <script type="text/javascript" src="{{ site.baseurl}}/assets/js/jquery.js"></script>
@@ -27,7 +30,9 @@ body {background-color:#f9f9f9;}
 <!--start custom CSS-->	
 {% for css in page.css %}<link rel="stylesheet" href="{{site.baseurl}}/assets/css/{{ css }}" type="text/css" />
 {% endfor %}
+<link rel="stylesheet" type="text/css" href="{{site.baseurl}}/assets/css/custom.css" />
 <!--end custom CSS-->
+
 <meta name="robots" content="noindex,nofollow">
 <link rel="alternate" type="application/rss+xml" title="JustBlue » Feed" href="http://demo.mythemeshop.com/justblue/feed/">
 <link rel="alternate" type="application/rss+xml" title="JustBlue » Comments Feed" href="http://demo.mythemeshop.com/justblue/comments/feed/">
@@ -66,6 +71,10 @@ body {background-color:#f9f9f9;}
   <!--end social button script-->
   <!--start footer code-->
   <!--end footer code-->
+  {% if page.slider %}
+  <script type="text/javascript" src="{{site.baseurl}}/assets/slider/jquery.flexslider.js"></script>
+	<script type="text/javascript" src="{{site.baseurl}}/assets/slider/script.js"></script>
+  {% endif %}
 </body>
 
 </html>
