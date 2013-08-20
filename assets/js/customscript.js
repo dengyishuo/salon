@@ -20,7 +20,7 @@
 	
 });
 
-/*
+
 $(document).ready(function() {
 	// Create the dropdown base
    $("<select />").appendTo("#navigation");
@@ -73,7 +73,7 @@ $(document).ready(function() {
 	//END -- Menus to <SELECT>	
 	
 	}); //END -- JQUERY document.ready
-*/
+
 
 jQuery(document).ready(function(){
 
