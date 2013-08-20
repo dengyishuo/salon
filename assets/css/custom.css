@@ -69,6 +69,10 @@ a.flex-prev, a.flex-next{ -webkit-transition: none; -moz-transition: none; trans
 .company-intro p{ margin: 10px }
 .company-intro a{ color:red;}
 
+.ad-300 img {
+  background: none;  
+}
+
 @media screen and (max-width:865px){
   .bottom-logo{display: none;}
   .company-intro{width: 100%;}
