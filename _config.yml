@@ -1,0 +1,34 @@
+# This is the default format. 
+# For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink: /:year/:month/:title 
+
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+auto: true
+pygments: false
+markdown: kramdown
+
+paginate: 5
+
+# Themes are encouraged to use these universal variables 
+# so be sure to set them if your theme uses them.
+#
+title : 数据科学沙龙
+tagline: Data Science and R
+description: 
+author :
+  name : 
+  email : 
+  github : 
+  twitter : 
+
+baseurl: /salon 
+product_url: http://yanping.me/salon
+  
+links:
+    - url: "http://yanping.me/"
+      name: 雁起平沙
+      title: 雁起平沙的网络日志
+
+
+
+  
