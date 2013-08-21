@@ -3,7 +3,8 @@ layout: default
 slider: true
 ---
 
-<section class="slider">
+
+<div class="slider">
 <div class="flexslider">
   <ul class="slides">
     <li>
@@ -14,7 +15,15 @@ slider: true
     </li>
   </ul>
 </div>
-</section>
+</div>
+
+<script type="text/javascript"> 
+    $slider = $('.slider');
+    var href= window.location.href;
+    if(href.indexOf('page') > -1){ 
+        $slider.remove();
+    }
+</script>
 
 
 {% for post in paginator.posts  %}          
@@ -46,7 +55,7 @@ slider: true
               title="Porttitor Lectus Tincidunt Elementum Nascetur Montes" rel="nofollow"
               id="featured-thumbnail">
                 <div class="featured-thumbnail">
-                  <img src="{{ site.baseurl}}assets/images/thumbnail/{{ post.img }}" class="attachment-thumbnail wp-post-image"
+                  <img src="{{ site.baseurl}}/assets/images/thumbnail/{{ post.img }}" class="attachment-thumbnail wp-post-image"
                   alt="{{ post.title }}" title="" height="150" width="150">
                 </div>
               </a>{% endif %}
@@ -73,7 +82,7 @@ slider: true
 				<!--<a href="{{ site.baseurl }}/archive">所有文章</a> -->
 		{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
-				<a class="next" href="{{ site.baseurl }}/">前一页 &rarr;</a>
+				<a class="next" href="{{ site.baseurl }}/">后一页 &rarr;</a>
 			{% else %}
 				<a class="next" href="{{ site.baseurl }}/page{{paginator.previous_page}}">后一页 &rarr;</a>
 			{% endif %}

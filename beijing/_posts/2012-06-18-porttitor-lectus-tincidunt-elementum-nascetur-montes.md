@@ -2,12 +2,13 @@
 layout: post
 title:  Porttitor Lectus Tincidunt Elementum Nascetur Montes
 author: <a rel="nofollow" href="http://demo.mythemeshop.com/justblue/author/snbh3gj/" title="Posts by MyThemeShop">MyThemeShop</a>
+img: 150X150.jpg
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, pretium a, <a href="#">convallis quis</a>, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat.</p>
+<!-- more -->
 <p>Nascetur, vel massa enim lundium nec in, phasellus vel nisi nec penatibus? Duis phasellus, ut! Amet risus ultricies integer! Elementum natoque! Nec, tincidunt risus adipiscing. Magna, augue dignissim in elementum diam ultricies. Enim, enim, sed augue nec? Montes habitasse ac, ridiculus, placerat cras sed! Dis nunc? Adipiscing, porta magna? Nunc non lundium? Vel, pulvinar aenean, montes purus. In elementum ac?</p>
 <p>Lorem. Magnis nisi augue turpis ac mattis urna augue egestas sit phasellus urna? Vut scelerisque nec et, odio mus. Lacus magnis pulvinar, urna scelerisque augue platea non rhoncus nunc? A mattis integer sed tristique amet, pid eu.</p>
-<!-- more -->
 <p>Placerat urna ultrices diam etiam rhoncus scelerisque auctor ac sed elementum in enim dictumst turpis tortor, elementum ut non ultrices sed auctor! Ultricies?</p>
 <p><img src="http://demo.mythemeshop.com/justblue/files/2012/04/redie1.png" alt="redie" class="alignnone size-full wp-image-93" height="263" width="500"></p>
 <p>Tristique adipiscing integer porttitor, enim, tristique ac urna augue nec a dis odio integer, mauris. Montes porttitor a mattis. Sit. In tortor porta, cum auctor, et. Dolor. Facilisis! Scelerisque? Dis urna duis proin, non nisi sit habitasse nec odio, ac, porta!</p>

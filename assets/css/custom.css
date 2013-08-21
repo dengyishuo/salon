@@ -37,6 +37,7 @@ a.flex-prev, a.flex-next{ -webkit-transition: none; -moz-transition: none; trans
 	color: #ccc;
 	margin: 1em 0 1em;
 	position: relative;
+  height: 25px;
 }
 
 .paging a.prev {
