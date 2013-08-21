@@ -8,7 +8,7 @@ slider: true
 <div class="flexslider">
   <ul class="slides">{% for slider in site.sliders %}
     <li>
-      <a href="{{ slider.url }}"><img src="{{site.baseurl}}/assets/images/slider/{{ slider.img }}" /><p class="flex-caption">{{ slider.caption }}</p></a>
+    <a href="{{site.baseurl}}{{ slider.url }}" target="_blank"><img src="{{site.baseurl}}/assets/images/slider/{{ slider.img }}" /><p class="flex-caption">{{ slider.caption }}</p></a>
     </li>{% endfor %}
   </ul>
 </div>

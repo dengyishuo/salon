@@ -30,13 +30,14 @@ links:
       title: 雁起平沙的网络日志
 
 sliders:
-    - img: p1.jpg
-      url: http://baidu.com
-      caption: "第9期沙龙"
+    - img: p3.jpg
+      url: /beijing/2013/08/cos-salon-bj-2013-jul-summary
+      caption: "COS数据分析沙龙（北京站）第10期"
       
-    - img: p2.jpg
-      url: http://google.com
-      caption: "第10期沙龙"
-
-
-  
+    - img: p4.jpg
+      url: /beijing/2013/07/cos-salon-beijing-sammury-2013-june
+      caption: "COS数据分析沙龙（北京站）第9期 "
+      
+    - img: p5.jpg
+      url: /shanghai/2013/05/shanghai-r-salon-may-2013
+      caption: "上海R用户沙龙（May 11, 2013 @联合创业办公社）"
