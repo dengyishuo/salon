@@ -2,7 +2,7 @@
 layout: post
 title:  Porttitor Lectus Tincidunt Elementum Nascetur Montes
 author: <a rel="nofollow" href="http://demo.mythemeshop.com/justblue/author/snbh3gj/" title="Posts by MyThemeShop">MyThemeShop</a>
-img: 150X150.jpg
+img: 150x150.jpg
 ---
 
 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Curabitur quam augue, vehicula quis, tincidunt vel, varius vitae, nulla. Sed convallis orci. Duis libero orci, pretium a, <a href="#">convallis quis</a>, pellentesque a, dolor. Curabitur vitae nisi non dolor vestibulum consequat.</p>
