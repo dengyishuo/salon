@@ -3,18 +3,27 @@ layout: default
 slider: true
 ---
 
-<section class="slider">
+
+<div class="slider">
 <div class="flexslider">
   <ul class="slides">
     <li>
-      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/slider/images/p1.jpg" /><p class="flex-caption">Caption 1</p></a>
+      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/images/slider/p1.jpg" /><p class="flex-caption">Caption 1</p></a>
     </li>
     <li>
-      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/slider/images/p2.jpg" /><p class="flex-caption">Caption 2</p></a>
+      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/images/slider/p2.jpg" /><p class="flex-caption">Caption 2</p></a>
     </li>
   </ul>
 </div>
-</section>
+</div>
+
+<script type="text/javascript"> 
+    $slider = $('.slider');
+    var href= window.location.href;
+    if(href.indexOf('page') > -1){ 
+        $slider.remove();
+    }
+</script>
 
 
 {% for post in paginator.posts  %}          
@@ -42,14 +51,14 @@ slider: true
                 </div>
               </header>
               <!--.header-->
-              <a href="{{ site.baseurl}}{{ post.url }}"
+              {% if post.img %}<a href="{{ site.baseurl}}{{ post.url }}"
               title="Porttitor Lectus Tincidunt Elementum Nascetur Montes" rel="nofollow"
               id="featured-thumbnail">
                 <div class="featured-thumbnail">
-                  <img src="assets/images/385366487_74825ae858_z-150x150.jpg" class="attachment-thumbnail wp-post-image"
-                  alt="385366487_74825ae858_z" title="" height="150" width="150">
+                  <img src="{{ site.baseurl}}/assets/images/thumbnail/{{ post.img }}" class="attachment-thumbnail wp-post-image"
+                  alt="{{ post.title }}" title="" height="150" width="150">
                 </div>
-              </a>
+              </a>{% endif %}
               <div class="post-container">
                 <div class="post-content image-caption-format-1">
                    {{ post.content | split: '<!-- more -->' | first }}
@@ -70,10 +79,10 @@ slider: true
 		{% if paginator.next_page %}
 			<a class="prev" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; 前一页</a>
 		{% endif %}
-				<a href="{{ site.baseurl }}/archive">所有文章</a>
+				<!--<a href="{{ site.baseurl }}/archive">所有文章</a> -->
 		{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
-				<a class="next" href="{{ site.baseurl }}/">前一页 &rarr;</a>
+				<a class="next" href="{{ site.baseurl }}/">后一页 &rarr;</a>
 			{% else %}
 				<a class="next" href="{{ site.baseurl }}/page{{paginator.previous_page}}">后一页 &rarr;</a>
 			{% endif %}
