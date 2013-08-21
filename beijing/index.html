@@ -3,6 +3,12 @@ layout: page
 title: 北京沙龙
 ---
 
+<div class="about">
+
+{% capture about %}{% include  about/beijing.md %}{% endcapture %}
+{{ about | markdownify }}
+      
+</div>
 
 {% for post in site.categories.beijing %}          
             <div class="post excerpt ">

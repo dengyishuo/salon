@@ -6,13 +6,10 @@ slider: true
 
 <div class="slider">
 <div class="flexslider">
-  <ul class="slides">
+  <ul class="slides">{% for slider in site.sliders %}
     <li>
-      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/images/slider/p1.jpg" /><p class="flex-caption">Caption 1</p></a>
-    </li>
-    <li>
-      <a href="http://baidu.com"><img src="{{site.baseurl}}/assets/images/slider/p2.jpg" /><p class="flex-caption">Caption 2</p></a>
-    </li>
+      <a href="{{ slider.url }}"><img src="{{site.baseurl}}/assets/images/slider/{{ slider.img }}" /><p class="flex-caption">{{ slider.caption }}</p></a>
+    </li>{% endfor %}
   </ul>
 </div>
 </div>
