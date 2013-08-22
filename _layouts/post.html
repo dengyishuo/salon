@@ -11,18 +11,7 @@ layout: default
     </header>
     <!--.headline_area-->
     <div class="post-info">
-      Posted in
-      <a href="http://demo.mythemeshop.com/justblue/category/apple/" title="View all posts in Apple"
-      rel="nofollow">
-        Apple
-      </a>
-      ,
-      <a href="http://demo.mythemeshop.com/justblue/category/google/" title="View all posts in Google"
-      rel="nofollow">
-        Google
-      </a>
-      {% if page.author %}by {{ page.author }}{% endif %}
-      On {{ page.date | date_to_string }}
+      发布于{{ page.date | date: "%Y 年 %m 月 %d 日" }}
       <span class="thecomment">
       <!--
         <a href="http://demo.mythemeshop.com/justblue/2012/06/17/porttitor-lectus-tincidunt-elementum-nascetur-montes/#comments">
