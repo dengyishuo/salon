@@ -19,18 +19,7 @@ title: hacks &frasl; hackers
                   </a>
                 </h2>
                 <div class="post-info">
-                  Posted in
-                  <a href="http://demo.mythemeshop.com/justblue/category/apple/" title="View all posts in Apple"
-                  rel="nofollow">
-                    Apple
-                  </a>
-                  ,
-                  <a href="http://demo.mythemeshop.com/justblue/category/google/" title="View all posts in Google"
-                  rel="nofollow">
-                    Google
-                  </a>
-                  {% if post.author %}by {{ post.author }}{% endif %}
-                  On {{ post.date | date_to_string }}
+                  发布于{{ post.date | date: "%Y 年 %m 月 %d 日" }} | <span class="ds-thread-count" data-thread-key="{{ post.id }}"></span>
                 </div>
               </header>
               <!--.header-->
