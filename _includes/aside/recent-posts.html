@@ -1,0 +1,21 @@
+                      <ul>
+                      {% for post in site.posts limit:5 %}
+                      <li>
+                          <div class="info">
+                            <p class="entry-title">
+                              <a title="{{ post.title }} " href="{{ site.baseurl}}{{ post.url }}">
+                                {{ post.title }} 
+                              </a>
+                            </p>
+                            <div class="meta">
+                              <p>
+                                {{ post.date | date_to_string }}
+                              </p>
+                            </div>
+                            <!--end .entry-meta-->
+                          </div>
+                          <!--end .info-->
+                          <div class="clear">
+                          </div>
+                        </li>{% endfor %}                        
+                      </ul>
