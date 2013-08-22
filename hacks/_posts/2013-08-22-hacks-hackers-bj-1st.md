@@ -8,7 +8,7 @@ Hacks/Hackers北京第一次活动要开始啦！Hacks <- [记者，NGO，公关
 
 <!-- more -->
 
-2013年9月1日下午1:30在青年志, 活动免费参加，我们还提供免费小吃饮料哦～报名地址：http://t.cn/zQk3N07
+2013年9月1日下午1:30在青年志, 活动免费参加，我们还提供免费小吃饮料哦～报名地址：<http://t.cn/zQk3N07>
 
 
 ![Hacks/Hackers北京第一次活动](http://ww3.sinaimg.cn/mw690/9a7eae38jw1e7v991g9ydj20qo2lgarz.jpg)
