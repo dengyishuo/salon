@@ -25,9 +25,9 @@ baseurl:
 product_url: http://yanping.me/salon
   
 links:
-    - url: "http://yanping.me/"
-      name: 雁起平沙
-      title: 雁起平沙的网络日志
+    - url: "http://cos.name"
+      name: 统计之都
+      title: 中国统计学门户网站
 
 sliders:
     - img: p3.jpg

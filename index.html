@@ -1,9 +1,9 @@
 ---
 layout: default
-slider: true
+slider: false
 ---
 
-
+{% if slider %}
 <div class="slider">
 <div class="flexslider">
   <ul class="slides">{% for slider in site.sliders %}
@@ -21,6 +21,8 @@ slider: true
         $slider.remove();
     }
 </script>
+
+{% endif %}
 
 
 {% for post in paginator.posts  %}          
@@ -62,16 +64,16 @@ slider: true
            
   
 <div class="paging">
-		{% if paginator.next_page %}
-			<a class="prev" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; 前一页</a>
-		{% endif %}
-				<!--<a href="{{ site.baseurl }}/archive">所有文章</a> -->
-		{% if paginator.previous_page %}
-			{% if paginator.page == 2 %}
-				<a class="next" href="{{ site.baseurl }}/">后一页 &rarr;</a>
-			{% else %}
-				<a class="next" href="{{ site.baseurl }}/page{{paginator.previous_page}}">后一页 &rarr;</a>
-			{% endif %}
-		{% endif %}
+    {% if paginator.next_page %}
+      <a class="prev" href="{{ site.baseurl }}/page{{paginator.next_page}}">&larr; 前一页</a>
+    {% endif %}
+        <!--<a href="{{ site.baseurl }}/archive">所有文章</a> -->
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="next" href="{{ site.baseurl }}/">后一页 &rarr;</a>
+      {% else %}
+        <a class="next" href="{{ site.baseurl }}/page{{paginator.previous_page}}">后一页 &rarr;</a>
+      {% endif %}
+    {% endif %}
 </div>
          

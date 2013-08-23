@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
       controlNav: true,
       useCSS: false,
       touch: true,
-      slideshowSpeed: 3000, 
+      slideshowSpeed: 7000, 
       pauseOnHover: true, 
       start: function() {
           $activecaption = $('.flex-active-slide .flex-caption');
