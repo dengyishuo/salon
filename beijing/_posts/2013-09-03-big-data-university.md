@@ -20,6 +20,8 @@ img:
 
 **微信** hadoopedu  
 **网站** hadoopedu.org
+**微博** @大数据公益大学
+
 
 ###活动日程###
 
