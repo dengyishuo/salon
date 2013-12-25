@@ -11,6 +11,7 @@ layout: default
     </header>
     <!--.headline_area-->
     <div class="post-info">
+<<<<<<< HEAD
       Posted in
       <a href="http://demo.mythemeshop.com/justblue/category/apple/" title="View all posts in Apple"
       rel="nofollow">
@@ -23,6 +24,9 @@ layout: default
       </a>
       {% if page.author %}by {{ page.author }}{% endif %}
       On {{ page.date | date_to_string }}
+=======
+      发布于{{ page.date | date: "%Y 年 %m 月 %d 日" }}| <span class="ds-thread-count" data-thread-key="{{ page.id }}"></span>
+>>>>>>> 5511ac5868f9d5d08a84a5496432982ebe5ecb79
       <span class="thecomment">
       <!--
         <a href="http://demo.mythemeshop.com/justblue/2012/06/17/porttitor-lectus-tincidunt-elementum-nascetur-montes/#comments">
@@ -39,8 +43,31 @@ layout: default
   <div class="related-posts">
     <!--some code -->
   </div>
+<<<<<<< HEAD
 </div>
                             
  <!--comment-->
     <!--some code -->
  <!--END comment-->
+=======
+  
+  <!-- JiaThis Button BEGIN -->
+  <div class="jiathis_style">
+  <span class="jiathis_txt">分享到：</span>
+  <a class="jiathis_button_qzone">QQ空间</a>
+  <a class="jiathis_button_tsina">新浪微博</a>
+  <a class="jiathis_button_tqq">腾讯微博</a>
+  <a class="jiathis_button_renren">人人网</a>
+  <a class="jiathis_button_kaixin001">开心网</a>
+
+  <a href="http://www.jiathis.com/share?uid=1824888" class="jiathis jiathis_txt jiathis_separator jtico jtico_jiathis" target="_blank">更多</a>
+  <a class="jiathis_counter_style"></a>
+  </div>
+  <!-- JiaThis Button END -->
+  
+  <!-- duoshuo  -->
+  <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" ></div>
+</div>
+                            
+ 
+>>>>>>> 5511ac5868f9d5d08a84a5496432982ebe5ecb79

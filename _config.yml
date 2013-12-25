@@ -21,6 +21,7 @@ author :
   github : 
   twitter : 
 
+<<<<<<< HEAD
 baseurl: /salon
 product_url: http://yanping.me/salon
   
@@ -32,3 +33,25 @@ links:
 
 
   
+=======
+baseurl: 
+product_url: http://idatasci.org
+  
+links:
+    - url: "http://cos.name"
+      name: 统计之都
+      title: 中国统计学门户网站
+
+sliders:
+    - img: p3.jpg
+      url: /beijing/2013/08/cos-salon-bj-2013-jul-summary
+      caption: "COS数据分析沙龙（北京站）第10期"
+      
+    - img: p4.jpg
+      url: /beijing/2013/07/cos-salon-beijing-sammury-2013-june
+      caption: "COS数据分析沙龙（北京站）第9期 "
+      
+    - img: p5.jpg
+      url: /shanghai/2013/05/shanghai-r-salon-may-2013
+      caption: "上海R用户沙龙（May 11, 2013 @联合创业办公社）"
+>>>>>>> 5511ac5868f9d5d08a84a5496432982ebe5ecb79
